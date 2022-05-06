@@ -1,0 +1,32 @@
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    /* position: fixed; */
+    float: none;
+    /* background-color: red; */
+}
+.d-flex{
+    display: flex;
+}
+.mp{
+    padding: 10px;
+    margin: 10px;
+}
+.mauto{
+    margin: auto;
+}
+.main{
+    height: 100%;
+}
+.mbody{
+    height: 90%;
+    overflow: scroll;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-color: black;
+}

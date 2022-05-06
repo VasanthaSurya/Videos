@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>video lan</title>
+        <link rel="stylesheet" href="./style.css">
+        <script type="text/javascript" src="./video.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    </head>
+    <body>
+      <div class="main">
+        <div class="container">
+            <h1>trials on videos and play back.</h1>
+            <button type="button" onclick="Play()" name="play">Play</button>
+            <button type="button" onclick="Pause()" name="Pause">Pause</button>
+            <button type="button" onclick="seekF()" name="SeekF">Seek Forward</button>
+            <button type="button" onclick="seekB()" name="SeekB">Seek backward</button>
+            <input type="number" name="st" value="0" id="st"/>
+            <button type="button" onclick="seektoM()" name="ht">seek to minute</button>
+            <input type="number" name="sts" value="0" id="sts"/>
+            <button type="button" onclick="seektoS()" name="sts">seek seconds</button>
+            <button type="button" onclick="playspd()" name="playspd">playback speed</button>
+            <button type="button" onclick="seekcurrent()" name="seekcrt">seek current</button>
+            <input type="file" name="client-file" id="get-files" multiple/>
+        </div>
+        <div class="mbody">
+          <div class="mauto">
+              <div class="d-flex">
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid1.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid5.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid6.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                </div>
+              <div class="d-flex">
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid9.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid10.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid11.mp4" type="video/mp4">
+                      </video>
+                  </div>
+              </div>
+              <div class="d-flex">
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid12.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid7.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid8.mp4" type="video/mp4">
+                      </video>
+                  </div>
+              </div>
+              <div class="d-flex">
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid13.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid14.mp4" type="video/mp4">
+                      </video>
+                  </div>
+                  <div class="mp">
+                      <video class="vid" width="400px" controls>
+                          <source src="vid15.mp4" type="video/mp4">
+                      </video>
+                  </div>
+              </div>
+        </div>
+        </div>
+    </body>
+</html>
